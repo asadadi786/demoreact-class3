@@ -7,11 +7,11 @@ function App() {
   
   return( 
   <div className="App">
-    <h1  style={{backgroundColor = "DodgerBlue", color ="white",fontFamily = "arial", fontSize = "14", textAlign = "center"}}>
+    <h1  style={{backgroundColor : "DodgerBlue", color :"white",fontFamily :"arial", fontSize : "14", textAlign : "center"}}>
    
       Desi MummyDaddy Restaurant
       </h1>
-    <div style={{backgroundColor = "lightblue", color ="white",fontFamily = "arial", fontSize = "10", textAlign = "center"}}> 
+    <div style={{backgroundColor : "lightblue", color :"white",fontFamily :"arial", fontSize : "10", textAlign : "center"}}> 
     <Dinner dish ="Mutton Chop" sweet =  "Saviyan" tea = "Chaiii"/>
     <hr/>
     
