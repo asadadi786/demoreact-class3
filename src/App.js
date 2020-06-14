@@ -12,7 +12,7 @@ function App() {
       Desi MummyDaddy Restaurant
       </h1>
     <div style={{backgroundColor : "lightblue", color :"white",fontFamily :"arial", fontSize : "10", textAlign : "center"}}> 
-    <h2>
+    
       Menu 1:
     <Dinner dish ="Mutton Chop" sweet =  "Saviyan" tea = "Chaiii"/>
     <hr/>
@@ -21,7 +21,7 @@ function App() {
     <hr/>
     Menu 3:
     <Dinner dish ="Dumba Karahi" sweet =  "Garato Jalebi" tea = "Chaiii"/>
-      </h2>
+    
     </div>
   </div>
     );
