@@ -7,7 +7,7 @@ function App() {
   <div className="App">
     <h1>Hello World from Muhammad Asad Ilyas</h1>
     
-    <Dinner dish ="Mutton Chop" sweet =  "Saviyan"/>
+    <Dinner dish ="Mutton Chop" sweet =  "Saviyan" tea = "Chaiii"/>
     <hr/>
     
     <Dinner dish ="Nehari" sweet =  "Custurd"/>

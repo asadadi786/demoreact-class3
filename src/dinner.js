@@ -6,6 +6,8 @@ import React from 'react';
             <div>
                 <h1>Today we are serving {props.dish}</h1>
                 <h1>Today we are serving {props.sweet}</h1>
+                <h1>Today we are serving {props.tea}</h1>
+                
             </div>
               )
     }
