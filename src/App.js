@@ -4,16 +4,19 @@ import './App.css';
 
 function App() {
   return( 
-  <div className="App">
-    <h1>Hello World from Muhammad Asad Ilyas</h1>
+  <div className="App" style={{color: "lightgrey"}}>
+    <h1  style={{color: "lightblue"}}>
+   
+      Desi MummyDaddy Restaurant
+      </h1>
     
     <Dinner dish ="Mutton Chop" sweet =  "Saviyan" tea = "Chaiii"/>
     <hr/>
     
-    <Dinner dish ="Nehari" sweet =  "Custurd"/>
+    <Dinner dish ="Nehari" sweet =  "Custurd" tea = "Chaiii"/>
     <hr/>
 
-    <Dinner dish ="Dumba Karahi" sweet =  "Garato Jalebi"/>
+    <Dinner dish ="Dumba Karahi" sweet =  "Garato Jalebi" tea = "Chaiii"/>
 
   </div>
     );
