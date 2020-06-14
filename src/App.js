@@ -4,28 +4,14 @@ import './App.css';
 
 function App() {
   
-  render() {
-    const mystyle1 = {
-      color: "white",
-      backgroundColor: "DodgerBlue",
-      padding: "14px",
-      fontFamily: "Arial"
-      
-    };
-    const mystyle2 = {
-      color: "white",
-      backgroundColor: "DodgerBlue",
-      fontFamily: "Arial"
-      
-    };
-
+  
   return( 
-  <div className="App" style={mystyle2}>
-    <h1  style={mystyle1}>
+  <div className="App">
+    <h1  style={{backgroundColor = "DodgerBlue", color ="white",fontFamily = "arial", fontSize = "14", textAlign = "center"}}>
    
       Desi MummyDaddy Restaurant
       </h1>
-    
+    <div style={{backgroundColor = "lightblue", color ="white",fontFamily = "arial", fontSize = "10", textAlign = "center"}}> 
     <Dinner dish ="Mutton Chop" sweet =  "Saviyan" tea = "Chaiii"/>
     <hr/>
     
@@ -33,7 +19,7 @@ function App() {
     <hr/>
 
     <Dinner dish ="Dumba Karahi" sweet =  "Garato Jalebi" tea = "Chaiii"/>
-
+    </div>
   </div>
     );
 }
