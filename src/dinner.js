@@ -5,8 +5,8 @@ import React from 'react';
         return( 
             <div>
                 <h1>Today we are serving {props.dish}</h1>
-                <h1>Today we are serving {props.sweet}</h1>
-                <h1>Today we are serving {props.tea}</h1>
+                <h1>and in sweet we have {props.sweet}</h1>
+                <h1>afterwards, {props.tea} tu banti </h1>
                 
             </div>
               )
