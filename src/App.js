@@ -13,7 +13,7 @@ function App() {
     <Dinner dish ="Nehari" sweet =  "Custurd"/>
     <hr/>
 
-    <Dinner dish ="Dumba Karahi" sweet =  "Jalebi"/>
+    <Dinner dish ="Dumba Karahi" sweet =  "Garato Jalebi"/>
 
   </div>
     );
