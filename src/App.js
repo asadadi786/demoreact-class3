@@ -4,8 +4,8 @@ import './App.css';
 
 function App() {
   return( 
-  <div className="App" style={{color: "lightgrey"}}>
-    <h1  style={{color: "lightblue"}}>
+  <div className="App" style={{backgroundColor: "lightblue"}}>
+    <h1  style={{color: "blue"}}>
    
       Desi MummyDaddy Restaurant
       </h1>
