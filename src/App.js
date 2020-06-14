@@ -3,9 +3,25 @@ import Dinner from './dinner.js';
 import './App.css';
 
 function App() {
+  
+  render() {
+    const mystyle1 = {
+      color: "white",
+      backgroundColor: "DodgerBlue",
+      padding: "14px",
+      fontFamily: "Arial"
+      
+    };
+    const mystyle2 = {
+      color: "white",
+      backgroundColor: "DodgerBlue",
+      fontFamily: "Arial"
+      
+    };
+
   return( 
-  <div className="App" style={{backgroundColor: "lightblue"}}>
-    <h1  style={{color: "blue"}}>
+  <div className="App" style={mystyle2}>
+    <h1  style={mystyle1}>
    
       Desi MummyDaddy Restaurant
       </h1>
